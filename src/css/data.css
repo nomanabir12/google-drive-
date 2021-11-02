@@ -42,3 +42,23 @@
     padding: 10px 0px;
 
 }
+.detailsRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+.detailsRow p {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+.detailsRow p b {
+    display: flex;
+    align-items: center;
+}
+.detailsRow p svg {
+    font-size: 22px;
+    margin: 10px;
+}
