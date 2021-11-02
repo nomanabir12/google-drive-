@@ -21,10 +21,11 @@ function Sidebar() {
             </div>
 
             <div className="sidebar_options">
-                <div className="sidebar_option">
+                <div className="sidebar_option sidebar_option-Active">
                     <MobileScreenShareIcon/>
-                    <span>My Drive</span>
+                    <span><b>My Drive</b></span>
                 </div>
+
                 <div className="sidebar_option">
                     <DevicesIcon/>
                     <span> Computers</span>
