@@ -20,6 +20,44 @@ function Data() {
                     <InfoOutlinedIcon/>
                 </div>
             </div>
+
+            <div className="data__content">
+                <div className="data_grid">
+                    <div className="data__file">
+                        <InsertDriveFileIcon/>
+                        <p>File Name</p>
+                    </div>
+                    <div className="data__file">
+                        <InsertDriveFileIcon/>
+                        <p>File Name</p>
+                    </div>
+                    <div className="data__file">
+                        <InsertDriveFileIcon/>
+                        <p>File Name</p>
+                    </div>
+                    <div className="data__file">
+                        <InsertDriveFileIcon/>
+                        <p>File Name</p>
+                    </div>
+                </div>
+                <div className="data_list">
+                    <div className="detailsRow">
+                        <p><b>Name <ArrowDownwardIcon/></b></p>
+                        <p><b>Owner </b></p>
+                        <p><b>Last Modified </b></p>
+                        <p><b>File Size </b></p>
+                    </div>
+
+                    <div className="detailsRow">
+                        <p>Name <InsertDriveFileIcon/></p>
+                        <p>Me </p>
+                        <p>Yesterday </p>
+                        <p>5GB </p>
+                    </div>
+
+                </div>
+        
+            </div>
         </div>
     )
 }
