@@ -16,3 +16,29 @@
 .data_headerRight svg{
     margin: 0px 10px;
 }
+.data_grid {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.data__file {
+    text-align: center;
+    border: 1px solid lightgrey;
+    margin: 10px;
+    min-width: 200px;
+    padding: 10px 0px 0px 0px;
+    border-radius: 5px;
+}
+.data__file svg {
+    font-size: 60px;
+    color: grey;
+}
+.data__file p {
+    border-top: 1px solid #ccc;
+    margin-top: 5px;
+    font-size: 12px;
+    background-color: whitesmoke;
+    padding: 10px 0px;
+
+}
